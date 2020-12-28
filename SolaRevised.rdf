@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
+		 xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+
+  <rdf:Description rdf:about="http://purl.org/ontology/fns/#SolarSystem">
+    <rdf:type rdf:resource="http://purl.org/ontology/fns/prebelt"/>
+    <foaf:name>Planet</foaf:name>
+    <foaf:members>
+      <rdf:Description rdf:about="http://purl.org/ontology/fns/#Planet-mercury">
+        <rdf:type rdf:resource="http://purl.org/ontology/fns/PlanetType"/>
+        <foaf:name>Mercury</foaf:name>
+        <dc:perihelion>0.307499 AU,46,001,200 km</dc:perihelion>
+        <dc:aphelion>0.466697 AU,69,816,900 km</dc:aphelion>
+        <dc:orbit> 8.9691 d,0.240846 yr,0.5 Mercury synodic day</dc:orbit>
+        <dc:eccentricity>0.205630</dc:eccentricity>
+        <dc:orbspeed>47.362 km/s</dc:orbspeed>
+        <dc:satellite>	None</dc:satellite>
+        <dc:Picture>https://cdn.mos.cms.futurecdn.net/MTEiJvP99DScN3vkAsE9LA-1200-80.jpg</dc:Picture>
+      </rdf:Description>
+    </foaf:members>
+	
+	<foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-mercury"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-venus"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-earth"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-mars"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-jupiter"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-saturn"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-uranus"/>
+    <foaf:members rdf:resource="http://purl.org/ontology/fns/#Planet-neptune"/>
+    <rdfs:comment>
+            The Solar System is the gravitationally bound system of the Sun and the objects that orbit it, 
+			either directly or indirectly. Of the objects that orbit the Sun directly, 
+			the largest are the eight planets, with the remainder being smaller objects,
+			the dwarf planets and small Solar System bodies..
+        </rdfs:comment>
+  </rdf:Description>
+
+  <dc:PlanetType rdf:about="http://purl.org/ontology/fns/">
+	<foaf:name>Mercury</foaf:name>
+    <foaf:name>Venus</foaf:name>
+    <foaf:name>Earth</foaf:name>
+    <foaf:name>Mars</foaf:name>
+    <foaf:name>Jupiter</foaf:name>
+    <foaf:name>Saturn</foaf:name>
+    <foaf:name>Uranus</foaf:name>
+    <foaf:name>Neptune</foaf:name>
+    <dc:perihelion>0.718440 AU, 107,477,000 km</dc:perihelion>
+    <dc:perihelion>147095000 km (91401000 mi)</dc:perihelion>
+    <dc:perihelion>206700000 km,(128400000 mi; 1.382 AU)</dc:perihelion>
+    <dc:perihelion>740.52 million km (4.9501 AU)</dc:perihelion>
+    <dc:perihelion>1,352.55 million km (9.0412 AU)</dc:perihelion>
+    <dc:perihelion>18.33 AU (2742 Gm)</dc:perihelion>
+    <dc:perihelion>29.81 AU (4.46 billion km)</dc:perihelion>
+    <dc:aphelion>0.718440 AU,107,477,000 km</dc:aphelion>
+    <dc:aphelion>152100000 km (94500000 mi)</dc:aphelion>
+    <dc:aphelion>249200000 km,(154800000 mi; 1.666 AU)</dc:aphelion>
+    <dc:aphelion>816.62 million km (5.4588 AU)</dc:aphelion>
+    <dc:aphelion>1,514.50 million km (10.1238 AU)</dc:aphelion>
+    <dc:aphelion>20.11 AU (3008 Gm)</dc:aphelion>
+    <dc:aphelion>30.33 AU (4.54 billion km)</dc:aphelion>
+    <dc:orbit>224.701 d,0.615198 yr,1.92 Venus solar day</dc:orbit>
+    <dc:orbit>365.256363004 d</dc:orbit>
+    <dc:orbit>686.971 d,(1.88082 yr; 668.5991 sols)</dc:orbit>
+    <dc:orbit>11.862 yr,4,332.59 d,10,475.8 Jovian solar days</dc:orbit>
+    <dc:orbit>29.4571 yr,10,759.22 d,24,491.07 Saturnian solar days</dc:orbit>
+    <dc:orbit>84.0205 yr, 30,688.5 d, 42,718 Uranian solar days[5]</dc:orbit>
+    <dc:orbit>164.8 yr, 60,182 days, 89,666 Neptunian solar days[5]</dc:orbit>
+    <dc:eccentricity>0.006772</dc:eccentricity>
+    <dc:eccentricity>0.0167086</dc:eccentricity>
+    <dc:eccentricity>0.0934</dc:eccentricity>
+    <dc:eccentricity>0.0489</dc:eccentricity>
+    <dc:eccentricity>0.0565</dc:eccentricity>
+    <dc:eccentricity>0.046381</dc:eccentricity>
+    <dc:eccentricity>0.008678</dc:eccentricity>
+    <dc:orbspeed>35.02 km/s</dc:orbspeed>
+    <dc:orbspeed>29.78 km/s</dc:orbspeed>
+    <dc:orbspeed>24.007 km/sm(86430 km/h; 53700 mph)</dc:orbspeed>
+    <dc:orbspeed>13.07 km/s (8.12 mi/s)</dc:orbspeed>
+    <dc:orbspeed>9.68 km/s (6.01 mi/s)</dc:orbspeed>
+    <dc:orbspeed>6.80 km/s</dc:orbspeed>
+    <dc:orbspeed>5.43 km/s</dc:orbspeed>
+    <dc:satellite>None</dc:satellite>
+    <dc:satellite>1 natural satellite,Moon</dc:satellite>
+    <dc:satellite>Two, Phobos and Deimos</dc:satellite>
+    <dc:satellite>There are 79 sattellites identified as of 2018, most notable ones are Callisto, Europe and Io</dc:satellite>
+    <dc:satellite>82 satellites with formal designations, Enceladus, Titan, Mimas and Tethys are the most notable ones</dc:satellite>
+    <dc:satellite>27 in total, Miranda, Titania and Oberon are the most notable out of the 27</dc:satellite>
+    <dc:satellite>14, Triton and Nereid are the most notable ones</dc:satellite>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/a/a9/PIA23791-Venus-NewlyProcessedView-20200608.jpg</dc:Picture>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/The_Earth_seen_from_Apollo_17.jpg/1200px-The_Earth_seen_from_Apollo_17.jpg</dc:Picture>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg</dc:Picture>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/2/2b/Jupiter_and_its_shrunken_Great_Red_Spot.jpg</dc:Picture>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/c/c7/Saturn_during_Equinox.jpg</dc:Picture>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg</dc:Picture>
+    <dc:Picture>https://upload.wikimedia.org/wikipedia/commons/6/63/Neptune_-_Voyager_2_%2829347980845%29_flatten_crop.jpg</dc:Picture>
+  </dc:PlanetType>
+
+</rdf:RDF>
